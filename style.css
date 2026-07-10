@@ -14,8 +14,20 @@ header {
 nav {
     display: flex; 
     gap: 10px; 
-    color: white;
     justify-content: center;    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+a:active {
+    color: blueviolet;
+    text-decoration: underline;
 }
 body {
     margin: 0;
@@ -25,15 +37,16 @@ main {
     max-width: 100%;
 }
 
-main .home {
+main #home {
     width: 100%;
     max-width: 100%;
-    background-image: url(portfolio\ images/power-bi.jpg);
+    background-image: url(images/power-bi.jpg);
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
     display: flex;
     gap: 50px;
+    margin:20px;
 }
 h3 {
     margin-top: 0px; 
