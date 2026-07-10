@@ -3,39 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="Stylesheet.css" />
-
-    <style>
-      * {
-      } /* This is a universal selector that targets all elements on the page. */
-      h1 {
-      } /* This is an element selector that targets h1. */
-      .github-meaning {
-      }
-      #how {
-      }
-    </style>
+    <title>Adesanwo Oluwakemi Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Welcome to CSS</h1>
-    <p class="github-meaning">
-      CSS means Cascading Style Sheets. It is used to style the HTML elements on
-      the page. It can be used to change the color, font, size, and layout of
-      the elements on the page.
-    </p>
-    <h2 id="how">Type of css styling</h2>
-    <ul style="color: red">
-      <li>
-        Inline styling (This is written inside the opening tag of the element
-      </li>
-      <li>
-        Internal styling (This is written inside the head element by creating a
-        style element
-      </li>
-      <li>
-        External styling (We need a css file that has an extension of .css)
-      </li>
-    </ul>
+    <header>
+      <h3>Kemmie De Analyst</h3>
+      <nav>
+        <div>Home</div>
+        <div>About</div>
+        <div>Skills</div>
+        <div>Projects</div>
+        <div>Services</div>
+        <div>Contact</div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="home">
+        <div>
+          <h3>Hello I'm</h3>
+          <h1>Oluwakemi Adesanwo</h1>
+          <h3>Data Analyst & Frontend Developer</h3>
+          <p>
+            I help organizations turn data into meaningful and actionable <br />
+            insight through data analysis, dashboard and automation. <br />
+            I'm also learning HTML, CSS and building simple web <br />
+            interface to bring your ideas to life.
+          </p>
+          <br />
+          <button class="home-button">View My Project</button>
+          <button class="home-button">Download CV</button>
+        </div>
+
+        <div>
+          <img
+            src="portfolio images/profile-picture.jpeg"
+            alt="Profile Picture"
+          />
+        </div>
+      </section>
+
+      <section class="cards">
+        <div class="service-header"><h3>SERVICES I OFFER</h3></div>
+
+        <div class="service-cards">
+          <div>
+            <h4>Data Analysis</h4>
+            <p>
+              Clean, analyze and interprete data to extract insight that drive
+              better decisions.
+            </p>
+          </div>
+          <div>
+            <h4>Power BI Developer</h4>
+            <p>
+              Create interactive dashboards using Power BI and Excel to
+              visualize metrics, trends and KPIs.
+            </p>
+          </div>
+          <div>
+            <h4>Automation</h4>
+            <p>
+              Automate repetitive tasks and workflows using Foogle Apps Script
+              and Microsoft Power Platform (Power Automate).
+            </p>
+          </div>
+          <div>
+            <h4>Training And Consultation</h4>
+            <p>
+              Empowering individuals and teams with data, automation and
+              Front-End development skills. Also providing expert consultation
+              and career development programs.
+            </p>
+          </div>
+          <div>
+            <h4>Data Analysis</h4>
+            <p>
+              Clean, analyze and interprete data to extract insight that drive
+              better decisions.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy 2026 Oluwakemi Adesanwo. All rights reserved.</p>
+    </footer>
   </body>
 </html>

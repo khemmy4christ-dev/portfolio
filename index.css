@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    display: flex;
+    background-color: rgb(1, 12, 32);
+    padding: 10px 20px;      
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav {
+    display: flex; 
+    gap: 10px; 
+    color: white;
+    justify-content: center;    
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    max-width: 100%;
+}
+
+main .home {
+    width: 100%;
+    max-width: 100%;
+    background-image: url(portfolio\ images/power-bi.jpg);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 50px;
+}
+h3 {
+    margin-top: 0px; 
+    color: blueviolet;
+}
+img {
+    height:350px;
+    width:auto;
+    max-width: 100%;
+    background-size: 100%;
+}
+.home-button{
+    background-color: blueviolet;
+    color: beige;
+    padding: 8px;
+    gap: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+footer {
+    width: auto;
+    max-width: 100%;
+    background-color: rgb(1, 12, 32);
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.service-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.service-cards {
+    display: flex;
+    gap: 10px;
+    margin: 4px;
+    max-width: 100%;
+    width: auto;
+}
+.service-cards div {
+    border: gray solid;
+    background-color: gray;
+    width: 100%;
+    padding: 4px;
+    border-radius: 10px;
+    max-width: 100%;
+}
+@media (max-width:768px){}
